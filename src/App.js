@@ -62,59 +62,6 @@ const App = () => {
   };
 
   return (
-    // <div>
-    //   <h1>Todo App</h1>
-
-    //   {/* Add Todo */}
-    //   <div>
-    //     <input
-    //       type="text"
-    //       placeholder="Add a new todo"
-    //       value={newTodo}
-    //       onChange={(e) => setNewTodo(e.target.value)}
-    //     />
-    //     <button onClick={addTodo}>Add Todo</button>
-    //   </div>
-
-    //   {/* Todo List */}
-    //   <div>
-    //     <h2>Todo List</h2>
-    //     {loading ? (
-    //       <p>Loading...</p>
-    //     ) : (
-    //       <ul>
-    //         {todos.map((todo) => (
-    //           <li key={todo.id}>
-    //             <span>{todo.title}</span>
-    //             <button
-    //               onClick={() =>
-    //                 editTodo(todo.id, prompt("Enter new title:", todo.title))
-    //               }
-    //             >
-    //               Edit
-    //             </button>
-    //             <button onClick={() => deleteTodo(todo.id)}>Delete</button>
-    //           </li>
-    //         ))}
-    //       </ul>
-    //     )}
-    //   </div>
-
-    //   {/* Search and Suggestions */}
-    //   <div>
-    //     <input
-    //       type="text"
-    //       placeholder="Search todos"
-    //       value={searchTerm}
-    //       onChange={handleSearchChange}
-    //     />
-    //     <ul>
-    //       {suggestions.map((todo) => (
-    //         <li key={todo.id}>{todo.title}</li>
-    //       ))}
-    //     </ul>
-    //   </div>
-    // </div>
     <div className="app">
       <h1 className="header">Todo App</h1>
 
